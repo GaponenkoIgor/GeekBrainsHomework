@@ -27,17 +27,16 @@ public class Main {
 
     public static void zadanie5(int number) {
         if (number >= 0) {
-            System.out.println( "Р§РёСЃР»Рѕ РїРѕР»РѕР¶РёС‚РµР»СЊРЅРѕРµ");
-            System.out.println( "Р§РёСЃР»Рѕ РѕС‚СЂРёС†Р°С‚РµР»СЊРЅРѕРµ");
+            System.out.println( "Число положительное");
+            System.out.println( "Число отрицательное");
         }
     }
     public static boolean zadanie6(int number){
         return number < 0;
     }
     public static void zadanie7(String name) {
-        System.out.println("РџСЂРёРІРµС‚, " + name + " !");
+        System.out.println("Привет, " + name + " !");
     }
 
 
 }
-
